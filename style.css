@@ -611,3 +611,197 @@ footer a:hover {
     height: 17rem;
   }
 }
+/* =====================================================
+   PÁGINA DE PROJETOS
+   ===================================================== */
+
+#projetos-detalhes {
+  background-color: #edf5ef;
+  padding: 4rem 0;
+}
+
+#projetos-detalhes > .container {
+  display: grid;
+  gap: 2rem;
+}
+
+#projetos-detalhes h2 {
+  color: #2f6b4a;
+  font-size: 2rem;
+}
+
+.projetos-introducao {
+  max-width: 900px;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.projeto-detalhado {
+  background-color: #ffffff;
+  border: 2px solid #6d9b7c;
+  border-radius: 10px;
+  padding: 2rem;
+  display: grid;
+  gap: 1.5rem;
+  box-shadow: 0 3px 10px rgba(23, 69, 47, 0.08);
+}
+
+.projeto-detalhado-cabecalho {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.projeto-detalhado h3 {
+  color: #2f6b4a;
+  font-size: 1.4rem;
+}
+
+.projeto-detalhado p {
+  max-width: 900px;
+  text-align: justify;
+}
+
+
+/* =====================================================
+   CÓDIGO EXPANSÍVEL
+   ===================================================== */
+
+.codigo-expansivel {
+  border: 1px solid #8aac96;
+  border-radius: 8px;
+  background-color: #edf5ef;
+  overflow: hidden;
+}
+
+.codigo-expansivel summary {
+  padding: 1rem 1.2rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: #17452f;
+  list-style-position: inside;
+}
+
+.codigo-expansivel summary:hover {
+  background-color: #d8e8dc;
+}
+
+.codigo-expansivel summary:focus-visible {
+  outline: 0.2rem solid #d6b84c;
+  outline-offset: -0.2rem;
+}
+
+.codigo-conteudo {
+  padding: 1rem;
+  border-top: 1px solid #8aac96;
+}
+
+.codigo-conteudo p {
+  margin-bottom: 1rem;
+}
+
+
+/* =====================================================
+   ÁREA DE CÓDIGO
+   ===================================================== */
+
+.codigo-area {
+  display: block;
+  width: 100%;
+  min-height: 30rem;
+  padding: 1rem;
+  resize: vertical;
+
+  background-color: #17251e;
+  color: #edf5ef;
+
+  border: 1px solid #6d9b7c;
+  border-radius: 6px;
+
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+
+  white-space: pre;
+  overflow: auto;
+}
+
+
+/* =====================================================
+   FLUXOGRAMA PDF
+   ===================================================== */
+
+.projeto-fluxograma {
+  gap: 1.5rem;
+}
+
+.pdf-container {
+  width: 100%;
+  height: 45rem;
+  overflow: hidden;
+
+  border: 2px solid #6d9b7c;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.pdf-container iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+/* =====================================================
+   BOTÃO VOLTAR
+   ===================================================== */
+
+#voltar-projetos {
+  padding-top: 1rem;
+}
+
+.botao-voltar-projetos {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 2.5rem;
+  padding: 0.7rem 1.2rem;
+
+  background-color: #2f6b4a;
+  color: #ffffff;
+
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.botao-voltar-projetos:hover {
+  background-color: #17452f;
+}
+
+
+/* =====================================================
+   RESPONSIVIDADE
+   ===================================================== */
+
+@media (max-width: 768px) {
+
+  #projetos-detalhes {
+    padding: 3rem 0;
+  }
+
+  .projeto-detalhado {
+    padding: 1.2rem;
+  }
+
+  .codigo-area {
+    min-height: 25rem;
+    font-size: 0.8rem;
+  }
+
+  .pdf-container {
+    height: 35rem;
+  }
+
+}
