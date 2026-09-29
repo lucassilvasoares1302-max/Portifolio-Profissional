@@ -19,18 +19,19 @@ O site foi desenvolvido com **HTML5** e **CSS3**, priorizando um layout moderno,
 ## 🧩 Visão Geral
 
 O portfólio apresenta informações sobre mim, meus projetos e um formulário de contato.  
-O design foi construído com **Flexbox e Grid Layout**, além de uma paleta em **tons de azul e roxo escuro**, mantendo contraste equilibrado e uma boa experiência visual.
+O design foi construído com **Flexbox e Grid Layout**, mantendo contraste equilibrado e uma boa experiência visual.
 
 ---
 
 ## 📂 Estrutura do Projeto
 
-📁 **Prática-1-PW**  
+📁 **Portfólio-Profissional**  
 ├── `index.html` — Estrutura principal do site  
 ├── `style.css` — Estilos e layout da página  
 ├── `images/` — Pasta com imagens utilizadas  
 │ └── `fotolucas.jpg` — Foto do autor  
 └── `README.md` — Documento explicativo do projeto  
+└── `projetos.html` — Estrutura secundária do site
 
 ---
 
